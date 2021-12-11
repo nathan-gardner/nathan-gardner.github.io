@@ -1,0 +1,150 @@
+<!DOCTYPE HTML>
+<!--
+	Solid State by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Projects</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<div class="inner">
+							<h2>Menu</h2>
+							<ul class="links">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="projects.html">Projects</a></li>
+								<li><a href="resume.pdf">Resume</a></li>
+							</ul>
+							<a href="#" class="close">Close</a>
+						</div>
+					</nav>
+
+				<!-- Wrapper -->
+					<section id="wrapper">
+						<header>
+							<div class="inner">
+								<h2>Projects</h2>
+								<p>An overview and description of some final course projects as well as some of my personal projects.</p>
+							</div>
+						</header>
+
+						<!-- Content -->
+							<div class="wrapper">
+								<div class="inner">
+                                    
+                                    <section>
+                                        <h1 class="major">Projects</h1>
+                                        <h3>Defender (1981 video game) - VHDL FPGA implementation for Digital Systems Design</h3>
+                                        <p><span class="image left"><img src="images/Defender/defender.png" alt="" /></span><a href="https://en.wikipedia.org/wiki/Defender_(1981_video_game)">Defender</a> is a scrolling shooter video game developed by Williams Electronics in 1980 and released for arcades in 1981. <a href="https://en.wikipedia.org/wiki/Defender_(1981_video_game)">Defender</a> was one of the most important titles of the golden age of arcade video games, selling over 55,000 units to become the company's best-selling game and one of the highest-grossing arcade games ever. Praise among critics focused on the game's audio-visuals and gameplay.<br />This is a recreation of the famous video game from the "golden era" of gaming. It was written in VHDL using Quartus for the DE-10 Lite Development board. <br />The DE-10 Lite board from Intel include a VGA connector and this was used for video output for the gameplay.</p>
+                                    </section>
+                                    
+                                    <section>
+                                    <h3 class="major">Images: Defender</h3>
+                                    <div class="box alt">
+                                        <div class="row gtr-uniform">
+                                            <div class="col-12"><span class="image fit"><img src="images/Defender/rtldefender.jpg" alt="" /></span></div>
+                                            <div class="col-12"><span class="image fit"><img src="images/Defender/rtldefenderinst.jpg" alt="" /></span></div>
+                                        </div>
+                                    </div>
+                                    </section>
+
+									<section>
+										<h3>Rock Paper Scissors Lizard Spock for Introduction to Digital Systems</h3>
+										<p><span class="image left"><img src="images/RSPLS/rspls.jpg" alt="" /></span>Rock Paper Scissors Lizard Spock is a spin-off of the classic game Rock Paper Scissors that was popularized by the TV sitcom The Big Bang Theory. RPSLS adds onto Rock Paper Scissors by adding two objects: Lizard (which beats Rock and Paper but loses to Scissors and Spock) and Spock (which defeats Scissors and Rock but is conquered by Paper and Lizard).<br />This game console was designed to simulate a best-of-three RPSLS competition between two players, in which the game will continue until one player has reached a score of two. Each player has five object choice buttons to select from. Each player possesses a “battle” button, and to initiate a “battle” both must simultaneously press their battle buttons along with their selected object choice button. Players are instructed to press only one object choice button at a time. However, if a battle is initiated with a player pressing multiple input buttons at the same time, priority of the inputs is given in the following order from highest to lowest: Spock, Scissors, Rock, Paper, and Lizard. If both players simultaneously press their battle buttons but either of them fails to press an object choice button at that moment, that player’s selection is defaulted to the lowest priority object Lizard.<br />The game console has four outputs: two LEDs and two seven segment displays, both of which have their own finite state machine (FSM). THe LED indicates wich player has won after each turn and the seven segment represents the score for the current game.</p>
+									</section>
+									<section>
+                                        <h3 class="major">Images: RPSLS</h3>
+										<div class="box alt">
+											<div class="row gtr-uniform">
+												<div class="col-12"><span class="image fit"><img src="images/RSPLS/rspls.jpg" alt="" /></span></div>
+												<div class="col-6"><span class="image fit"><img src="images/RSPLS/priorityencoder.png" alt="" /></span></div>
+												<div class="col-6"><span class="image fit"><img src="images/RSPLS/scoreboardfsm.png" alt="" /></span></div>
+												<div class="col-6"><span class="image fit"><img src="images/RSPLS/wincomp.png" alt="" /></span></div>
+												<div class="col-6"><span class="image fit"><img src="images/RSPLS/LEDfsm.png" alt="" /></span></div>
+											</div>
+										</div>
+									</section>
+                                    
+                                    <section>
+                                        <h3>Audio Amplifier Circuit for Electrical Engineering Lab</h3>
+                                        <p>Designed a three stage amplifier circuit with a pre-amp, volume control, and power amplifier. The circuit was designed to use a dynamic microphone as input and drive a 8 ohm speaker to provide a loud voice signal on the speaker.<br />The amplifier circuit was designed to have a frequency response between 10 Hz and 7000 Hz as specified in the final project handout.<br />The frequency response was verified in lab and met the specifications for the assigned final project. </p>
+                                    </section>
+                                    
+									<section>
+										<h3>Morse Code Generator for Microcomputer Systems</h3>
+										<p><span class="image right"><img src="images/pic02.jpg" alt="" /></span>Our final design project for ECE 3130 Microcomputer Systems is a Morse Code Generator, in which a message is input on the keypad by a user, stored, and is later output using the buzzer and LCD in the form of International Morse code.<br />The overall functionality of this project is to allow a user to input a string using the
+keypad, and later output that string in Morse code on the LCD screen.  Once the string is entered and stored, the program automatically starts outputting the string in Morse code.<br />At that point the string is set to be read by a function which outputs the users input back to the user in International Mors, while simultaneously the buzzer outputs noise that represents the dots and dashes audibly for the user. Furthermore, once the program has successfully output the string to the user in Morse code, the program recycles back the point where it will allow the user to input a new message and this cycle will repeat, until the user is satisfied.</p>
+									</section>
+
+								</div>
+							</div>
+
+					</section>
+					
+					<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+                            <section>
+							<p><a href="https://www.linkedin.com/in/snathangardner">LinkedIn Profile</a></p>
+							</section>
+                            
+                            <form method="post" action="#">
+                                <div class="fields">
+                                    <div class="field">
+                                        <label for="name">Name</label>
+                                        <input type="text" name="name" id="name" />
+                                    </div>
+                                    <div class="field">
+                                        <label for="email">Email</label>
+                                        <input type="email" name="email" id="email" />
+                                    </div>
+                                    <div class="field">
+                                        <label for="message">Message</label>
+                                        <textarea name="message" id="message" rows="4"></textarea>
+                                    </div>
+                                </div>
+                                <ul class="actions">
+                                    <li><input type="submit" value="Send Message" /></li>
+                                </ul>
+                            </form>
+                            
+                            <section>
+							<ul class="copyright">
+								<li>&copy; Nathan Gardner. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+                            </section>
+                            
+						</div>
+					</footer>
+					
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
