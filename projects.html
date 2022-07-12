@@ -74,10 +74,13 @@
 											<h4>Milestone 4:</h4>
 												<p>
 													This milestone implemented all of the functionality of milestone 3 but his time in a non-preemptive operating system, called <a href="https://github.com/jwbruce/esos32">ESOS</a>, developed by our professor. The OS allowed for multitasking and threading in a lightweight embedded environment and used a concept similar to threads in a traditional operating system, which in ESOS are called tasks. More details on operating system functionality is available in the <a href="http://jwbruce.info/esos32/">ESOS doxygen documentation.</a> </br>
-													Code had to be either in hardware/ software initialization or within tasks, and these tasks constantly passed control around in a round-robin fashion. Tasks were created in milestone 4 for receiving UART transmissions, sending UART transmissions, and processing data between the receiving and sending buffers using the vigènere cipher. A circular buffer routine stored the incoming and outgoing character buffers, which were populated by the operating system through the recieve and send tasks.
+													Code had to be either in hardware/ software initialization or within tasks, and these tasks constantly passed control around in a round-robin fashion. Tasks were created in milestone 4 for receiving UART transmissions, sending UART transmissions, and processing data between the receiving and sending circular buffers using the vigènere cipher. 
 												</p>
 											<h4>Milestone 5:</h4>
-
+												<p>
+													This milestone was an extension of milestone 4 for but this time interfacing with the EduBase-V2 board, adding functionality. The EduBase-V2 board added peripherals to the NUCLEO-L452RE including: numerical keypad, four additional push buttons, four seven-segment displays, a buzzer, four additional LEDs, relays, potentiometers, pin headers for I/O, and much more. EduBase-V2 board schematic is available here. All ports had to be defined by the group and get and set functions were written for every needed peripheral I/O on the extension board. </br>
+													The additional complexity of this milestone also came from additional software features, which used all five available push buttons to change program operation states between: encrypt, decrypt, command, lower to upper case, the removal of non-alphanumeric characters, and echo as the default state. Program operation was verified for each operation mode, sending UART characters to the board and receiving the correct UART response with serial communication software on a PC. This program implemented the same LED period commands as milestone 4 but his time for each individual LED, all four of which could be queried or set independently through the extension boards keypad input in the command state. “Sx,nnnn” set LEDx to a period of nnnn milliseconds, and Lx inquired about the period of LEDx in milliseconds. An additional command was implemented for which Rhhhh would return the state of the keypad where hhhh is a hex bit-mask for the keypads sixteen individual buttons. The keypad for the board was scanned to minimize I/O ports, as seen on the hardware schematic, so a keypad routine was also developed for this milestone. 
+												</p>
 											<h4>Milestone 6:</h4>
 
 											<h4>Milestone 7:</h4>
@@ -92,7 +95,8 @@
                                     </section>
                                     
                                     <section>
-                                        <h3 class="major">Defender (1981 video game) - VHDL FPGA implementation for Digital Systems Design<br />Original Game:</h3>
+										<h3 class="major">Defender (1981 video game) - VHDL FPGA implementation for Digital Systems Design</h3>
+										<p>Original game:</p>
                                         <p><span class="image left"><img src="images/Defender/defender.png" alt="" /></span><a href="https://en.wikipedia.org/wiki/Defender_(1981_video_game)">Defender</a> is a scrolling shooter video game developed by Williams Electronics in 1980 and released for arcades in 1981. <a href="https://en.wikipedia.org/wiki/Defender_(1981_video_game)">Defender</a> was one of the most important titles of the golden age of arcade video games, selling over 55,000 units to become the company's best-selling game and one of the highest-grossing arcade games ever. Praise among critics focused on the game's audio-visuals and gameplay.<br />This is a recreation of the famous video game from the "golden era" of gaming. It was written in VHDL using Quartus for the DE-10 Lite Development board. <br />The DE-10 Lite board from Intel includes a VGA connector and this was used for video output for the gameplay. This is a recreation of the orignal game completed as the final project for digital system design, a course at my university.</p>
                                     </section>
                                     
