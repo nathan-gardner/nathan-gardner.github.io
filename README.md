@@ -1,3 +1,0 @@
-[![pages-build-deployment](https://github.com/nathan-gardner/nathan-gardner.github.io/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main)](https://github.com/nathan-gardner/nathan-gardner.github.io/actions/workflows/pages/pages-build-deployment)
-
-My name is Nathan and this is my website that I host as a portfolio of sorts. Check HTML5UP.md and LICENSE.md for credits and open-source licenses.
