@@ -1,6 +1,6 @@
 ---
 layout: default
-title: dev
+title: index
 ---
 
 # dev header
