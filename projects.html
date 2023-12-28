@@ -41,275 +41,73 @@
 			</div>
 		</nav>
 
+		<!-- Banner -->
+		<section id="banner">
+			<div class="inner">
+				<h2>Projects</h2>
+				<p>An overview and description of some final course projects as well as some of my personal projects. Projects are in reverse chronological order with most recent projects appearing first from left to right, top to bottom.</p>
+			</div>
+		</section>
+
 		<!-- Wrapper -->
 		<section id="wrapper">
-			<header>
-				<div class="inner">
-					<h2>Projects</h2>
-					<p>An overview and description of some final course projects as well as some of my personal projects. Projects are in reverse chronological order with most recent projects appearing first.</p>
-				</div>
-			</header>
 
 			<!-- Content -->
 			<div class="wrapper">
 				<div class="inner">
 
-					<section>
-						<h3 class="major">SoutheastCon Hardware Robotics Competition</h3>
-						<p>The goal of this project was to design and fabricate an autonomous robot to compete in the 2023 IEEE SoutheastCon Hardware Competition. The finalized design needed to both complete specified objectives and comply with
-							constraints outlined in a set of rules and regulations provided by the competition organizers. The completed robot placed 4th overall out of 36 registered teams. More detail can be provided for this project on request. 
-							Final project poster available <a href="files/Poster.pdf">here</a>.
-						</p>
+					<section class="features">
+						<article>
+							<a href="projects/secon-robot.html" class="image"><img src="images/SECON/robotcad.png" alt="" /></a>
+							<h3 class="major">SoutheastCon Hardware Robotics Competition</h3>
+							<p>Autonomous robot designed and built for IEEE student competition in Orlando, FL. Placed 4th out of 36 universities around the southeast.</p>
+							<a href="projects/secon-robot.html" class="special">Learn more</a>
+						</article>
+						<article>
+							<a href="projects/mips-processor.html" class="image"><img src="images/MIPS/blockdiagrams.png" alt="" /></a>
+							<h3 class="major">MIPS Architecture 32-bit processor (VHDL)</h3>
+							<p>The processor designed had five basic stages based on MIPS architecture: instruction fetch, instruction memory, instruction execute, data memory, and write-back. The project was also pushed to the DE-10 Lite FPGA, computing the MIPS	instructions: branch, branch equal/ not equal, immediate instructions, add and subtract, store and load word, and all logical expressions, etc.</p>
+							<a href="projects/mips-processor.html" class="special">Learn more</a>
+						</article>
+						<article>
+							<a href="projects/multiplier.html" class="image"><img src="images/multiplier/multiplierrtlview.png" alt="" /></a>
+							<h3 class="major">32-bit multiplier circuit (VHDL)</h3>
+							<p>The optimized multiply circuit was built with four VHDL units, the product register, the thirty-two-bit adder, the control unit, and the multiplicand register.</p>
+							<a href="projects/multiplier.html" class="special">Learn more</a>
+						</article>
+						<article>
+							<h3 class="major">Milestone lab assignments for Embedded System Design</h3>
+							<p>Labs for Embedded System Design Course used NUCLEO-L452RE STM32 MCU and libopencm3 (an open source hardware abstraction library). Embedded programming done in C.</p>
+							<a href="projects/embedded-milestones.html" class="special">Learn more</a>
+						</article>
+						<article>
+							<h3 class="major">Electronic Dissection assignment from Embedded System Design</h3>
+							<p>Electronic Dissection from Embedded System Design. Dissected indoor temperature and humidity sensor and documented design, BOM, etc.</p>
+							<a href="projects/embedded-dissection.html" class="special">Learn more</a>
+						</article>
+						<article>
+							<a href="projects/defender.html" class="image"><img src="images/Defender/defender.png" alt="" /></a>
+							<h3 class="major">Defender (1981 Video Game) FPGA implementation (VHDL)</h3>
+							<p>Project was written in VHDL using Quartus for the DE-10 Lite Development board. The board has a VGA connector and this was used for video output for the gameplay.</p>
+							<a href="projects/defender.html" class="special">Learn more</a>
+						</article>
+						<article>
+							<a href="projects/rpsls.html" class="image"><img src="images/RSPLS/rspls.jpg" alt="" /></a>
+							<h3 class="major">Rock Paper Scissors Lizard Spock</h3>
+							<p>Game designed using drag and drop logic schematic software. Boolean logic was designed and simplified using concepts from the Introduction to Digital Systems course.</p>
+							<a href="projects/rpsls.html" class="special">Learn more</a>
+						</article>
+						<article>
+							<h3 class="major">Audio Amplifier Circuit</h3>
+							<p>Three stage (pre-amp, volume control, power amp) audio amplifier designed for EE Lab. Design used dynamic microphone as input and 8 ohm speaker as output.</p>
+							<a href="projects/amplifier.html" class="special">Learn more</a>
+						</article>
+						<article>
+							<h3 class="major">Morse Code Generator</h3>
+							<p>Final design project for Microcomputer Systems was a Morse code generator. Input message with 16 button keypad and morse code was output through a piezo buzzer.</p>
+							<a href="projects/morse-code-gen.html" class="special">Learn more</a>
+						</article>
 					</section>
-
-					<section>
-						<h4>Images: SECON Robot</h4>
-						<div class="box alt">
-							<div class="row gtr-uniform">
-								<div class="col-6"><span class="image fit"><img src="images/SECON/robotcad.png" alt="" /></span></div>
-								<div class="col-6"><span class="image fit"><img src="images/SECON/robot.png" alt="" /></span></div>
-							</div>
-						</div>
-					</section>
-
-					<section>
-						<p>
-							The Project GitHub is public and stores the project proposal, conceptual design, and detailed design. The GitHub is linked <a href="https://github.com/nathan-gardner/SECON2023Robot">here</a>.
-						</p>
-					</section>
-
-					<section>
-						<h3 class="major">MIPS Architecture 32-bit processor written in VHDL for Fundementals/Computer Design</h3>
-						<p>This project was conducted in three phases over the course of the semester and was created to facilitate learning computer central processing unit design. The processor designed had five basic stages: instruction fetch,
-							instruction memory, instruction execute, data memory, and write-back. A single cycle and pipelined version were created. The project was also pushed to the DE-10 Lite FPGA in its pipelined implementation and worked as
-							designed, computing the MIPS instructions: branch, branch equal/ not equal, immediate instructions, add and subtract, store and load word, and all logical expressions (or, and, xor, etc.). </br>Waveforms were generated and
-							analyzed for correctness in ModelSim. More detail can be provided for this project on request. Final project presentation available <a href="files/MIPSFinalPresentationNathanGardner.pdf">here</a>.</p>
-					</section>
-
-					<section>
-						<h4>Images: MIPS Architecture</h4>
-						<div class="box alt">
-							<div class="col-12"><span class="image fit"><img src="images/MIPS/blockdiagrams.png" alt="" /></span></div>
-						</div>
-					</section>
-
-					<section>
-						<h3 class="major">32-bit multiplier circuit in VHDL for Fundementals/Computer Design</h3>
-
-						<p>Optimized multiplier circuit</p>
-						<h4>RTL view of multiplier circuit:</h4>
-						<div class="box alt">
-							<div class="col-12"><span class="image fit"><img src="images/multiplier/multiplierrtlview.png" alt="" /></span></div>
-						</div>
-						<p>The optimized multiply circuit was built with three VHDL units, the product register, the thirty-two-bit 
-						adder, and the control unit, and the multiplicand register. These components were then connected in 
-						the top-level file for the project. Each of the four fundamental VHDL implementations are covered in 
-						detail below. <br /></p>
-						<p>The productregister.vhd implementation is where the control signals enter the data path. The overall 
-						implementation has three main control signals: load, add, and shift, all of which enter the data path at 
-						the product register. The load control signal is only asserted on startup and populates the product 
-						register with the hi and lo values for initialization. The right half of the product register it initialized to 
-						the multiplier and the left half is all zeros. Next, the product register is alternated between the add and 
-						3
-						shift states in that order, for 32 repetitions. In the add state, the high half of the product register is 
-						updated with the result of the adder (if LSB is ‘1’), and in turn the adder result is updated, because of 
-						the circuit typology and the fact that product(63 downto 32) is an input to the adder. In the shift state, 
-						the product register is just shifted to the right one-bit place. <br /></p>
-						<p>The adder32.vhd implementation simply adds the more significant half of the product register with the 
-						multiplicand, in the case that the least significant bit of the product register is one. In the case that the 
-						least significant bit of the product register is zero, the most significant half of the product register is 
-						passed through to the adder output. This means that in the case that the product register is controlled 
-						to add, it will take the result of the adder and place it in the upper half of the product register, and the 
-						value will remain unchanged in the case that the least significant bit of the product register is zero, and 
-						in the case that the least significant bit is one, it is updated correctly. <br /></p>
-						<p>The controlunit.vhd implementation for this project functions similarly to a simple finite state machine 
-						that is initialized in the load state, and on the next clock rising edge jumps to the add state, and then 
-						alternates between the add and shift states. The controlunit.vhd implementation has three processes, 
-						one functioning as the next state logic, one as the output logic, and the last of the transition logic. The
-						curr_state is initialized to load_state on startup and then is commanded to add_state on the rising edge 
-						of the clock. The logic then commands the machine to jump back and forth between add and shift 
-						states, for 32 repetitions (one repetition being one add and one shift). The machine is always checking if 
-						clock count has reached sixty-five. Sixty-five comes from one clock for the load state, and two clock 
-						cycles per repetition inside the finite state machine. As soon as the condition count = sixty-five is 
-						reached, the next state is set to end_state, which is a trap state that the system will stay in forever, 
-						because there is no exit path from that state. This could actually be improved so that the operations are done in parallel and that would take less clock cycles. If inside the end state, the multiplication has been 
-						performed and is complete with the result in the product register. The final process cycles current state 
-						to equal next state on every rising clock edge, this keeps the finite state machine moving through states. <br /></p>
-						<p>The multiplicand register is implemented in the multipicand32.vhd file. This is just a simple register that 
-						stores the multiplicand.<br /></p>
-						<p>The multiplier circuit has a very similar circuit topology to the dedicated multiplier circuit that is part of the MIPS architecture. <br /></p>
-						<h4>Waveforms:</h4>
-						<p>Below is the ModelSim waveforms that show the circuit values at given clock cycles and the correct value for 5 * 34, 170. <br /></p>
-						<div class="box alt">
-							<div class="col-12"><span class="image fit"><img src="images/multiplier/multiplierwaveform.png" alt="" /></span></div>
-						</div>
-						<h4>Fmax:</h4>
-						<p>The unrestricted Fmax value is 157.28 MHz on the MAX 10 10M50DAF484C6GES FPGA. This just means that the fasted theoretical clock for this 
-						system is 157.28 MHz This means that theoretically the multiply operation for any input to this circuit 
-						could be computed in 413.3 ns (this comes from (65 clock cycles) * (1/157.28 MHz)) and this would be 
-						running at the absolute fastest the circuit can theoretically operate.<br /></p>
-						<h4>ELABORATION ON VHDL FILES INCLUDED:</h4>
-						<p>adder32.vhd - The implementation of the modified 32 bit adder component for the multiply circuit.<br />
-						adder32_tb.vhd - Testbench written to test the adder operation after the adder was written in VHDL.<br />
-						controlunit.vhd - Control unit implementation that is used to control the data path of the multiplier circuit.<br />
-						controlunit_tb.vhd - Testbench written to test the operation of the control unit after it was written in VHDL.<br />
-						productregister.vhd - VHDL file for the stucture of the product register for the multiplier32 circuit.<br />
-						productregister_tb.vhd - Testbench written to test the product register immediately after VHDL was written to test the code operation.<br />
-						multiplicand32.vhd - Multiplicand register file<br />
-						multiplier32.vhd - The top level file for the project in which all the components are port mapped into the correct configuration to implement the multiplier.<br />
-						multiplier32_tb.vhd - The testbench for the mulitplier operation that just provided the multiplier and multiplicands and then clock the system to get a result.<br /></p>
-						<h4>NOTE:</h4>
-						<p>The circuit was synthesized in Quartus Prime 20.1. The multiplier.qpf file is included and can be loaded up
-						with the software and the file that can be programmed to a compliant FPGA. <br /></p>
-
-					</section>
-
-					<section>
-						<h3 class="major">Milestone lab assignments for Embedded System Design</h3>
-						<p>This course used the NUCLEO-L452RE STM32 MCU which is part of the <a href="https://en.wikipedia.org/wiki/ARM_Cortex-M#Cortex-M4">ARM Cortex-M4</a> family. The course used <a
-								href="https://github.com/libopencm3/libopencm3">libopencm3</a>, which is a lightweight hardware abstraction library available on GitHub and maintained by the open source community. Embedded programming for this course
-							was done in C. Milestones build on top of each other thoughout the semester, each introducing a new topic from the course. Milestone 4 through Milestone 8 were completed in a group of four students. I tried to explain
-							these milestones in a paragraph each, so a lot of technical details had to be brushed over, more detail can be given on any of the milestones listed below.
-						</p>
-						<h4>Milestone 1:</h4>
-						<p>
-							Getting environment setup...
-						</p>
-						<h4>Milestone 2:</h4>
-						<p>
-							<i>Key concepts: UART and hardware timers</i></br></br>
-							Individually completed milestone using <a href="https://en.wikipedia.org/wiki/Universal_asynchronous_receiver-transmitter">UART</a> and ARM Cortex-M4 hardware timers. I wrote system hardware and software initialization
-							code and defined I/O port configurations. This program did not use interrupts as requested by the instructions. This program used a gadfly synchronization technique, which periodically checked flags that indicated if UART
-							data was being received. This program was a <a href="https://en.wikipedia.org/wiki/Vigenère_cipher">Vigènere cipher</a> programmed to encrypt or decrypt characters sent to the board via the UART port. A supporting circular
-							buffer library was developed for this milestone to store characters in a buffer. The key for this cipher was “TENNESSEETECH” and a button on the board set the operation mode for either encryption or decryption.
-						</p>
-						<h4>Milestone 3:</h4>
-						<p>
-							<i>Key concepts: hardware interrupt implementation with UART commands</i></br></br>
-							Individually completed milestone extending off the previous UART Vigènere cipher functionality but this time with an additional LED. This program used <a href="https://en.wikipedia.org/wiki/Interrupt">interrupts</a> as
-							requested by the instructions. The extension for this milestone was the ability to set and read the period of the LED in milliseconds. Two commands were created: !!!L and !!!S####, the first of which replaced !!!L and
-							inserted the period of the LED in the UART stream sent back from the MCU, and the second of which set the period of the LED in milliseconds, with valid inputs being 0001 to 9999 ms. This required a routine to interface
-							data coming in serially through UART and set the hardware timer registers in flight.
-						</p>
-						<h4>Milestone 4:</h4>
-						<p>
-							<i>Key concepts: embedded OS introduction</i></br></br>
-							This milestone implemented all of the functionality of milestone 3 but his time in a non-preemptive operating system, called <a href="https://github.com/jwbruce/esos32">ESOS</a>, developed by our professor. The OS allowed
-							for threading in a lightweight embedded environment and used a concept similar to threads/ tasks in a traditional operating system. More details on operating system functionality is available in the <a
-								href="http://jwbruce.info/esos32/">ESOS doxygen documentation.</a> </br>
-							System code had either be in hardware/ software initialization or within tasks, and these tasks constantly passed control around in a round-robin fashion. Tasks were created in milestone 4 for receiving UART transmissions,
-							sending UART transmissions, and processing data between the receiving and sending circular buffers using the Vigènere cipher. All of the following milestones used ESOS, so I am not going to explicitly state that for each
-							milestone description following this one.
-						</p>
-						<h4>Milestone 5:</h4>
-						<p>
-							<i>Key concepts: Peripheral Target Board interface</i></br></br>
-							This milestone was an extension of milestone 4 but this time interfaced with the EduBase-V2 extension board. The EduBase-V2 board added peripherals around the NUCLEO-L452RE including: numerical keypad, four additional push
-							buttons, four seven-segment displays, a buzzer, four additional LEDs, relays, potentiometers, pin headers for I/O, and more. EduBase-V2 board schematic is available <a href="files/BaseBoard_L452.pdf">here</a>. All ports
-							had to be defined by the group and read and write functions were written for every needed peripheral I/O port and pin combination on the extension board. </br>
-							The additional complexity of this milestone also came from additional software features, which used all five available push buttons to change program operation states between: encrypt, decrypt, command, lower to upper
-							case, and the removal of non-alphanumeric characters. Program operation was verified for each operation mode, sending UART characters to the board and receiving the correct UART response through serial communication
-							software on a PC. This program implemented the same LED period commands as milestone 4 but his time for each individual LED, all four of which could be queried or set independently through the extension boards 4x4 keypad
-							input in the command state. “Sx,nnnn” set LEDx to a period of nnnn milliseconds, and Lx inquired about the period of LEDx in milliseconds. An additional command was implemented for which Rhhhh would return the 16-bit
-							representation of the state of the keypad where hhhh was a hex bit-mask for the keypads sixteen individual buttons, represented by a sixteen bit binary value. The keypad for the board was scanned to minimize I/O ports and
-							based on the hardware schematic, so a keypad routine was also written for this milestone.
-						</p>
-						<h4>Milestone 6:</h4>
-						<p>
-							<i>Key concepts: simple user interface creation within embedded OS</i></br></br>
-							This milestone required implementation of a <a href="https://en.wikipedia.org/wiki/Simplified_user_interface">simple user interface (SUI)</a>. We were tasked with developing a service that would make it simpler for a
-							developer to use and configure I/O. A hardware specific service was created for this milestone which allowed hardware to be abstracted away and simplified interfacing with the boards peripheral devices and I/O. It was also
-							a requirement for this lab to implement all of milestone 5 functionalities with the SUI service developed.
-						</p>
-						<h4>Milestone 7:</h4>
-						<p>
-							<i>Key concepts: Hitachi LCD character module and service</i></br></br>
-							This milestone was an extension of the previous milestone but this time using the <a href="https://en.wikipedia.org/wiki/Hitachi_HD44780_LCD_controller">Hitachi LCD44780</a> included on the EduBase-V2 extension board. ESOS
-							has a background service (covered in doxygen linked above) for configuring the LCD, writing characters, and setting the cursor, etc.. This background service was used to interface with the LCD for this milestone. The LCD
-							acted as a user interface where the user could see each LCD period in milliseconds and cycle though the four periods with buttons on the keypad. The user could also still set the period with the keypad where D represented
-							the edit command, set was represented by the * key, and the numbers pressed filled the LCD from right to left. Another new functionality added was that when the device was encrypting or decrypting using the cipher, the LCD
-							screen would be populated with the characters received and sent through UART. The received normal characters were on the top row and the sent encrypted/ decrypted characters were on the bottom row, shifting from left to
-							right.
-						</p>
-						<h4>Milestone 8:</h4>
-						<p>
-							<i>Key concepts: Seven-segment display service and SPI</i></br></br>
-							This milestone used the <a href="https://en.wikipedia.org/wiki/Seven-segment_display">seven-segment displays</a>, a refresh task which took care of updating the multiplexed display, and user API functions, all of which
-							combined to create a seven-segment service used to display characters with the seven-segment displays on the EduBase-V2 board. API functions were implemented based on instructions for the following: clear screen, write
-							character, write buffer, get display, write string, blink, write u8 decimal, write u8 hex, write i8 decimal, write i8 hex, write u16 decimal, and write u16 hex. The processor’s SPI peripheral was used to interface with the
-							seven-segments for this milestone. The board schematic has a SPI master-slave combination connected to the DIG0-3 and QA-QH which were used to write to the seven-segment displays.
-						</p>
-
-					</section>
-
-					<section>
-						<h3 class="major">Electronic dissection assignment for Embedded System Design</h3>
-						<p>The goal of this assignment is the complete dissection, analysis, and reassembly of a small consumer electronics product. I dissected the La Crosse Indoor Temperature & Humidity Station.</br>The project was designed to
-							simulate the competitive analysis process within engineering as well as test engineering knowledge from throughout many undergraduate courses including: electronics, circuits, any electronics labs, and prior business
-							classes. Analysis was done on many levels including: product history, vendor prices, retail outlets which sell the product, rebranded and OEM versions. A bill of materials was created for the product with prices compiled
-							from bulk electronics sites. </br>Detailed operational analysis was done on the device and a CAD circuit diagram was created for the device. A detailed block state diagram for the device was created which covered its
-							operational states.</p>
-					</section>
-
-					<section>
-						<h3 class="major">Defender (1981 video game) - VHDL FPGA implementation for Digital Systems Design</h3>
-						<p>Original game:</p>
-						<p><span class="image left"><img src="images/Defender/defender.png" alt="" /></span><a href="https://en.wikipedia.org/wiki/Defender_(1981_video_game)">Defender</a> is a scrolling shooter video game developed by Williams
-							Electronics in 1980 and released for arcades in 1981. <a href="https://en.wikipedia.org/wiki/Defender_(1981_video_game)">Defender</a> was one of the most important titles of the golden age of arcade video games, selling
-							over 55,000 units to become the company's best-selling game and one of the highest-grossing arcade games ever. Praise among critics focused on the game's audio-visuals and gameplay.<br />This is a recreation of the famous
-							video game from the "golden era" of gaming. It was written in VHDL using Quartus for the DE-10 Lite Development board. <br />The DE-10 Lite board from Intel includes a VGA connector and this was used for video output for
-							the gameplay. This is a recreation of the orignal game completed as the final project for digital system design, a course at my university.</p>
-					</section>
-
-					<section>
-						<h4>Images: Defender</h4>
-						<div class="box alt">
-							<div class="col-12"><span class="image fit"><img src="images/Defender/rtldefender.png" alt="" /></span></div>
-							<div class="col-12"><span class="image fit"><img src="images/Defender/rtldefenderinst.png" alt="" /></span></div>
-						</div>
-						<p>Gameplay Video Coming Soon...</p>
-					</section>
-
-					<section>
-						<h3 class="major">Rock Paper Scissors Lizard Spock for Introduction to Digital Systems</h3>
-						<p><span class="image left"><img src="images/RSPLS/rspls.jpg" alt="" /></span>Rock Paper Scissors Lizard Spock is a spin-off of the classic game Rock Paper Scissors that was popularized by the TV sitcom The Big Bang Theory.
-							RPSLS adds onto Rock Paper Scissors by adding two objects: Lizard (which beats Rock and Paper but loses to Scissors and Spock) and Spock (which defeats Scissors and Rock but is conquered by Paper and Lizard).<br />This
-							game console was designed to simulate a best-of-three RPSLS competition between two players, in which the game will continue until one player has reached a score of two. Each player has five object choice buttons to select
-							from. Each player possesses a “battle” button, and to initiate a “battle” both must simultaneously press their battle buttons along with their selected object choice button. Players are instructed to press only one object
-							choice button at a time. However, if a battle is initiated with a player pressing multiple input buttons at the same time, priority of the inputs is given in the following order from highest to lowest: Spock, Scissors,
-							Rock, Paper, and Lizard. If both players simultaneously press their battle buttons but either of them fails to press an object choice button at that moment, that player’s selection is defaulted to the lowest priority
-							object Lizard.<br />The game console has four outputs: two LEDs and two seven segment displays, both of which have their own finite state machine (FSM). The LED indicates which player has won after each turn and the seven
-							segment represents the score for the current game.</p>
-					</section>
-
-					<section>
-						<h4>Images: RPSLS</h4>
-						<div class="box alt">
-							<div class="row gtr-uniform">
-								<div class="col-12"><span class="image fit"><img src="images/RSPLS/rspls.jpg" alt="" /></span></div>
-								<div class="col-6"><span class="image fit"><img src="images/RSPLS/priorityencoder.png" alt="" /></span></div>
-								<div class="col-6"><span class="image fit"><img src="images/RSPLS/scoreboardfsm.png" alt="" /></span></div>
-								<div class="col-6"><span class="image fit"><img src="images/RSPLS/wincomp.png" alt="" /></span></div>
-								<div class="col-6"><span class="image fit"><img src="images/RSPLS/LEDfsm.png" alt="" /></span></div>
-							</div>
-						</div>
-					</section>
-
-					<section>
-						<h3 class="major">Audio Amplifier Circuit for Electrical Engineering Lab</h3>
-						<p>Designed a three stage amplifier circuit with a pre-amp, volume control, and power amplifier. The circuit was designed to use a dynamic microphone as input and drive a 8 ohm speaker to provide a loud voice signal on the
-							speaker.<br />The amplifier circuit was designed to have a frequency response between 10 Hz and 7000 Hz as specified in the final project handout.<br />The frequency response was verified in lab and met the specifications
-							for the assigned final project. </p>
-					</section>
-
-					<section>
-						<h3 class="major">Morse Code Generator for Microcomputer Systems</h3>
-						<p>Our final design project for Microcomputer Systems was a Morse code generator, with which a message is input on the keypad by a user with the devices 16-key keypad, and is later output using the buzzer and LCD in the form
-							of International Morse code.<br />The user inputs the string, it is read by a function which outputs the users message back to the user in international Morse code, while the buzzer outputs tones which represent the dots
-							and dashes audibly for the user. Once the program has successfully output the string to the user in Morse code, the program recycles back the point where it will allow the user to input a new message and this cycle will
-							repeat, forever or until power is removed.</p>
-					</section>
-
 				</div>
 			</div>
 
@@ -319,29 +117,11 @@
 		<footer id="footer">
 			<div class="inner">
 				<section>
-					<p><a href="https://www.linkedin.com/in/snathangardner">LinkedIn Profile</a></p>
+					<ul class="contact">
+						<li class="icon brands fa-linkedin"><a href="https://www.linkedin.com/in/snathangardner">linkedin.com/in/snathangardner</a></li>
+					</ul>
 				</section>
-				<!--
-                            <form method="post" action="#">
-                                <div class="fields">
-                                    <div class="field">
-                                        <label for="name">Name</label>
-                                        <input type="text" name="name" id="name" />
-                                    </div>
-                                    <div class="field">
-                                        <label for="email">Email</label>
-                                        <input type="email" name="email" id="email" />
-                                    </div>
-                                    <div class="field">
-                                        <label for="message">Message</label>
-                                        <textarea name="message" id="message" rows="4"></textarea>
-                                    </div>
-                                </div>
-                                <ul class="actions">
-                                    <li><input type="submit" value="Send Message" /></li>
-                                </ul>
-                            </form>
-                            -->
+				
 				<section>
 					<ul class="copyright">
 						<li>&copy; Nathan Gardner. All rights reserved.</li>
